@@ -12,3 +12,5 @@ echo $_SESSION['greetings'];
 <body>
 </body>
 </html>
+
+
