@@ -1,11 +1,14 @@
 <?php
 
 class car{
+    function MoveWheels(){
+        echo "right,lrft ,in circles";
+    }
 
 }
-if (class_exists("Car")){
-    echo "class available";
+if (method_exists("Car","MoveWheels")){
+    echo "method available";
 }else{
-    echo "class not available";
+    echo "method not available";
 }
 ?>
