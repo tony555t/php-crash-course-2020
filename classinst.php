@@ -7,14 +7,16 @@ class Car{
     var $engine=1;
     var $door=4;
 function MoveWheels(){
-    echo "The car is moving with wheels<br>";
+$this->wheels=10;
 }
+ function CreateDoors(){
+    $this->door=10;
+ }
+
 
 }
 $bmw=new Car();
-$nissan=new Car();
-$pajero=new Car();
-$toyota=new Car();
+
 
 $bmw->MoveWheels();
 echo "<hr>";
