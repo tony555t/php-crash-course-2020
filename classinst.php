@@ -2,6 +2,10 @@
 
 
 class Car{
+    var $wheels=4;
+    var $hood=1;
+    var $engine=1;
+    var $door=4;
 function MoveWheels(){
     echo "The car is moving with wheels<br>";
 }
