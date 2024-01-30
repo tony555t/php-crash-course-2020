@@ -16,7 +16,9 @@ $this->wheels=10;
 
 }
 $bmw=new Car();
-
+$truck=new car();
+echo $bmw->wheels;
+echo $truck->door;
 
 $bmw->MoveWheels();
 echo "<hr>";
