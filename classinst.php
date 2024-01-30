@@ -10,19 +10,18 @@ function MoveWheels(){
 $this->wheels=10;
 }
  function CreateDoors(){
-    $this->door=10;
+    
  }
 
 
 }
 $bmw=new Car();
-$truck=new car();
-echo $bmw->wheels;
-echo $truck->door;
 
-$bmw->MoveWheels();
-echo "<hr>";
-$nissan->MoveWheels();
-$pajero->MoveWheels();
-$toyota->MoveWheels();
+class Plane extends Car{
+
+
+}
+$jet=new Plane();
+$jet->MoveWheels();
+
 ?>
