@@ -42,5 +42,19 @@ class Towns{
  public function setPopulation($newpopulation){
   $this->population=$newpopulation;
 }
-
+//method to display information about the town
+ public function  displayTownInformation(){
+    echo " town".$this->name."\n";
+    echo "mayor".$this->getMayor()."\n";
+    echo "finance".$this->getfinance()."\n";
+    echo "population".$this->getPopulation()."\n";
+ }
 }
+// creating an instance of  a tow
+$kisumu = new Towns( "kisumu","john doe",1000000000,5000000);
+$kisumu->displayTownInformation();
+$nairobi = new Towns( "nairobi","babu",1000000000,100000000);
+$nairobi->displayTownInformation();
+$nakuru = new Towns("nakuru","moi",2990000 ,890876);
+$nakuru->displayTownInformation();
+
